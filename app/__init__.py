@@ -14,4 +14,5 @@ app.config.update( DATABASE = config.get('PATHS', 'db'),
                    USERNAME = config.get('SECRETS', 'username'),
                    PASSWORD = config.get('SECRETS', 'password')
                       )
+                      
 
