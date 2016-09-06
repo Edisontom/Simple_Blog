@@ -16,3 +16,4 @@ def login():
             flash('You were logged in')
             return redirect(url_for('index'))
     return render_template('login.html', error=error)
+    
