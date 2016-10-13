@@ -1,8 +1,6 @@
 from flask import render_template
 from app import app
 from..db import get_db
-
-
 @app.route( '/' )
 def show_entries():
    db = get_db()
