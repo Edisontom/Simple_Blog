@@ -8,6 +8,7 @@ directory_path = os.path.dirname(__file__)
 config_path = os.path.join(directory_path, 'config.ini')
 config = ConfigParser.ConfigParser()
 config.read(config_path)
+config.read(config_path)
 
 app.config.update( DATABASE = config.get('PATHS', 'db'),
                    SECRET_KEY = config.get('SECRETS', 'key'),
