@@ -3,7 +3,6 @@ from flask import Flask
 from
 
 
-app=Flask(__name__, static_url_path = '/static')
 
 directory_path = os.path.dirname(__file__)
 config_path = os.path.join(directory_path, 'config.ini')
